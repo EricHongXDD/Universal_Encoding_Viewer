@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>452</width>
+    <height>271</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>451</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>res/background.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>391</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTabWidget::pane{
+min-width:70px;
+min-height:25px;
+border-top: 1px solid;
+border-color: white;
+}
+
+QTabBar::tab {
+
+min-width:110px;
+
+min-height:25px;
+
+color: white;
+
+font: 57 14pt &quot;Alibaba PuHuiTi&quot;;
+
+border: 0px solid;
+
+
+
+}
+
+QTabBar::tab:selected{
+
+min-width:390px;
+
+min-height:25px;
+color: white;
+
+font: 57 16pt &quot;Alibaba PuHuiTi&quot;;
+
+border: 0px solid;
+
+border-bottom: 5px solid;
+
+border-color: #4796f0;
+
+}
+</string>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab_15">
+    <attribute name="title">
+     <string>提示</string>
+    </attribute>
+    <widget class="QLabel" name="label_20">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>371</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Alibaba PuHuiTi</family>
+       <pointsize>14</pointsize>
+       <weight>7</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+font: 57 14pt &quot;Alibaba PuHuiTi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>您没有选择打开的文本</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>130</y>
+       <width>61</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {	
+	color: white;
+	font: 57 12pt &quot;Alibaba PuHuiTi&quot;;
+	background-color: rgb(107, 146, 255);
+	border-radius:10px;
+}
+QPushButton:hover {
+	color: black;
+	background-color: rgb(129, 162, 255)
+}
+QPushButton:pressed {	
+	background-color: rgb(107, 146, 255);
+	color: white;
+}
+border-image: url(:/button/button_unselected.png);</string>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
